@@ -1,70 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <style>
+        img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    margin: 50px;
+    padding: 0px;
+    
+}
 
+
+    </style>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <style>
-h1{
-text-align: center;
-}
-
-        </style>
-    
-        
+        <title>Pisemka2</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> 
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li>
-                <a class="nav-link" href="">Boxy</a>
-                <a class="nav-link" href="">Lorem</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <img src="./obrazek.png" alt="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Jedna</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Dva</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class = "container">
+                
+                <div class="row mb-5; background-color = green" >
+                    <div class="col-md-4">
+                      <div class="card_1">
+                        <div class="card-body">
+                          <h2 class="card-title text-center display-3">1
+                          </h2>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card_2">
+                        <div class="card-body">
+                          <h2 class="card-title text-center display-3">2
+                          </h2>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card_3">
+                          <div class="card-body">
+                            <h2 class="card-title text-center display-3">3
+                            </h2>
+                           </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
           </div>
+          <br>
+
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+            <h1>Jedna</h1>
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Nulla pulvinar eleifend sem. Maecenas libero. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris dictum facilisis augue. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nunc dapibus tortor vel mi dapibus sollicitudin. Nunc auctor. Quisque tincidunt scelerisque libero. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Suspendisse sagittis ultrices augue. Praesent in mauris eu tortor porttitor accumsan. Aliquam ornare wisi eu metus. Integer vulputate sem a nibh rutrum consequat. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Aliquam erat volutpat.</p>
+          <p>Etiam dictum tincidunt diam. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nullam dapibus fermentum ipsum. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Pellentesque sapien. Duis condimentum augue id magna semper rutrum. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Integer malesuada. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Etiam neque. Aliquam erat volutpat. Praesent vitae arcu tempor neque lacinia pretium. Suspendisse nisl. Vestibulum fermentum tortor id mi.</p>
         </div>
-      </nav>
-   <h1>Tomáš Vondra</h1>
-   <h2> Boxy </h2><br>
-   <div class="row">
-    <div class="col-md-4 debug">
-      <div class="card">
-        <div class="card-body">
-        
-Zelená
-</div>
-</div>
     </div>
-    <div  class="card text-bg-info mb-3" style="max-width: 18rem;">
-      <div class="card">
-        
-        Orange
-        
 
-      </div>
-          </div>
-   </div>
- <h2>Lorem<h2><br>
-   <p1>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sagittis hendrerit ante. Quisque tincidunt scelerisque libero. Proin mattis lacinia justo. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Curabitur sagittis hendrerit ante. Integer imperdiet lectus quis justo. Pellentesque arcu. Suspendisse sagittis ultrices augue. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Nulla pulvinar eleifend sem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+    <br>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+        <h1>Dva</h1>
+<li>Etiam dictum tincidunt diam. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </li>
+<li>Nullam dapibus fermentum ipsum. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. </li>
+<li>Pellentesque sapien. Duis condimentum augue id magna semper rutrum. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. </li>
+<li>Integer malesuada. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Etiam neque. </li>
+        </div>
+</div>
 
-Fusce consectetuer risus a nunc. Etiam commodo dui eget wisi. Praesent in mauris eu tortor porttitor accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed ac dolor sit amet purus malesuada congue. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur bibendum justo non orci. Praesent id justo in neque elementum ultrices. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Quisque tincidunt scelerisque libero. Vivamus luctus egestas leo. Fusce tellus. Aenean fermentum risus id tortor. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aenean id metus id velit ullamcorper pulvinar. Etiam commodo dui eget wisi. Vivamus ac leo pretium faucibus.
-
-Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Aenean id metus id velit ullamcorper pulvinar. Duis risus. Fusce nibh. Praesent id justo in neque elementum ultrices. Fusce wisi. Fusce aliquam vestibulum ipsum. Duis viverra diam non justo. Nullam faucibus mi quis velit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Nulla est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-
-Fusce nibh. Phasellus et lorem id felis nonummy placerat. Nullam dapibus fermentum ipsum. Quisque porta. Nulla quis diam. Nullam at arcu a est sollicitudin euismod. Donec vitae arcu. Sed ac dolor sit amet purus malesuada congue. Nunc auctor. Fusce aliquam vestibulum ipsum. Duis risus. Pellentesque sapien.
-   </p1>
-</body>
+<div class="row">
+    <img src="./obrazek.png" alt="logo2">
+</div>
+            
 </html>
+
